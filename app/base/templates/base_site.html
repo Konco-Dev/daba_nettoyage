@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<!--begin::Head-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<title>DABA NETTOYAGE : {% block title %}{% endblock title %}</title>
+	<link rel="icon shortcut" href="/static/assets/img/favicon.ico">	
+	<meta property="og:locale" content="en_US"/>
+	
+	<!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/favicon.png">
+    
+	<!-- Normalize CSS -->
+    <link rel="stylesheet" href="/static/assets/css/normalize.css">
+    
+	<!-- Main CSS -->
+    <link rel="stylesheet" href="/static/assets/css/main.css">
+    
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+    
+	<!-- MeanMenu CSS -->
+    <link rel="stylesheet" href="/static/assets/css/meanmenu.min.css">
+    
+	<!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="/static/assets/css/fontawesome-all.min.css">
+    
+	<!-- Animate CSS -->
+    <link rel="stylesheet" href="/static/assets/css/animate.min.css">
+    
+	<!-- FlatIcon CSS -->
+    <link rel="stylesheet" href="/static/assets/font/flaticon.css">
+    
+	<!-- Nivo Slider CSS -->
+    <link rel="stylesheet" href="/static/assets/vendor/slider/css/nivo-slider.css">
+    
+	<!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="/static/assets/vendor/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/assets/vendor/OwlCarousel/owl.theme.default.min.css">
+    
+	<!-- Select 2 CSS -->
+    <link rel="stylesheet" href="/static/assets/css/select2.min.css">
+    
+	<!-- Datetime Picker CSS -->
+    <link rel="stylesheet" href="/static/assets/css/jquery.datetimepicker.css">
+    
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <link rel="stylesheet" href="/static/assets/css/style.less">
+    
+	<!-- Modernize js -->
+    <script src="/static/assets/js/modernizr-3.7.1.min.js"></script>
+
+	<!-- begin::Page specific css -->
+		{% block stylesheets %}{% endblock %}
+	<!-- end::Page specific css -->
+</head>
+<!--end::Head-->
+
+<!--begin::Body-->
+	<body class="d-flex h-100">
+		<div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+			<!-- ScrollUp Start Here -->
+				{% include 'partials/_scrolltop.html' %}
+			<!-- ScrollUp End Here -->
+
+			<!-- Preloader Start Here -->
+				{% include 'partials/_page-loader.html' %}
+			<!-- Preloader End Here -->
+			
+			<!-- start::Page header-->
+				{% include 'partials/_header.html' %}
+			<!-- end::Page header -->
+
+			<!-- begin::Header mobile -->
+			<!-- end::Header mobile -->
+
+			<!-- begin::Main-->
+				<main class="main_section">
+					<div class="body_wrapper">
+						{% block content %}{% endblock %}
+					</div>
+					<!-- begin::Footer -->
+						{% include "partials/_footer.html" %}
+					<!-- end::Footer -->
+				</main>
+			<!-- end::Main-->			
+			{% include "partials/_whatsapp_icon.html" %}
+		</div>
+
+		<!-- begin::Global scripts -->
+			{% include "scripts.html" %}
+		<!-- end::Global scripts -->
+
+		<!-- begin::Page specific JS -->
+			{% block javascripts %}{% endblock %}
+		<!-- end::Page specific JS -->
+
+	</body>
+<!--end::Body-->
+
+</html>

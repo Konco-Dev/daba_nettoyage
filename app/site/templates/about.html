@@ -1,0 +1,116 @@
+{% extends "base_site.html" %}
+
+{% block title %} About {% endblock title %}
+
+{% block stylesheets %}
+	<style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+	</style>
+{% endblock stylesheets %}
+
+{% block content %}
+    <!-- Inne Page Banner Area Start Here -->
+    <section class="inner-page-banner bg-common" data-bg-image="https://img.freepik.com/photos-gratuite/vue-face-homme-nettoyant-interieur_23-2150454484.jpg?w=996&t=st=1688987871~exp=1688988471~hmac=17a400aa26bb3bdffee60399d42db826f06ebcc5bfc126981ad609f4e3c628f9">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumbs-area">
+                        <h1>About Us</h1>
+                        <ul>
+                            <li>
+                                <a href="{{ url_for('site_blueprint.home_page') }}">Home</a>
+                            </li>
+                            <li>About</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inne Page Banner Area End Here -->
+    <!-- About Us Area Start Here -->
+    <section class="section-padding-12-9">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-box-layout1">
+                        <div class="item-tag">About Us</div>
+                        <h2 class="item-title">DABA W DIMA</h2>
+                        <p>
+                            Imaginez un service de nettoyage qui vous offre un environnement 
+                            impeccable en seulement 2 heures.
+                        </p>
+                        <p>
+                            
+                            Notre équipe de professionnels qualifiés et expérimentés travaille 
+                            de manière méthodique et efficace pour optimiser chaque minute de notre intervention.                            
+                            Nous utilisons des machines et des équipements  performants, 
+                            ainsi que des produits de nettoyage spécialement conçus pour maximiser 
+                            l'efficacité.
+                        </p>
+                        <p>    
+                            La rapidité ne signifie pas compromis sur la qualité.
+                            En optant pour notre service de nettoyage en 2 heures, 
+                            vous gagnez du temps précieux dans votre emploi du temps chargé. 
+                            Plus besoin de consacrer des journées entières au nettoyage de vos locaux. 
+                            Ne laissez plus le nettoyage monopoliser votre temps et votre énergie. 
+                            Faites confiance à notre équipe compétente et à notre approche rapide et efficace. 
+                            Avec nous, un nettoyage en 2 heures devient une réalité, 
+                            vous permettant ainsi de consacrer votre temps à ce qui compte vraiment dans votre vie.
+                        </p>  
+                        <p> 
+                            Contactez-nous dès maintenant et laissez-nous vous offrir la magie d'un nettoyage complet en seulement 2 heures. 
+                            Faites le choix d'un nettoyage rapide sans compromis sur la qualité.                            
+                        </p>
+                        <div class="list-item">
+                            <ul>
+                                <li>
+                                    <h3>DABA NETTOYAGE</h3>
+                                    <p>" Nous sommes fiers de notre DABA NETTOYAGE . 
+                                        Nous comprenons que chaque maison et que chaque espace de travail est unique, 
+                                        et nous nous efforçons de fournir des solutions de nettoyage personnalisées 
+                                        qui répondent aux exigences spécifiques grâce à une équipe entrainée sur 
+                                        l’utilisation des équipements modernes et des produits efficaces. 
+                                        Bref, nous sommes là pour aider les particuliers et les professionnels 
+                                        en matière de nettoyage»   Rachida ABAKARIM La gérante</p>
+                                </li>
+                                <li>
+                                    <h3>Pourquoi nous choisir?</h3>
+                                    <p>Avec DABA NETTOYAGE vous n’avez plus besoin d’engager une personne 
+                                        toute la journée à faire le rond pendant de longues heures  ,   
+                                        offrez vous le ménage nécessaire  garantis par des agents équipés 
+                                        de l’expertise , des équipements modernes et des produits efficaces 
+                                        pendants en 2 heures seulement , </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-box-layout6">
+                        <div class="item-img">
+                            <img src="/static/assets/img/propos.jpg" alt="thumb">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Area End Here -->
+{% endblock %}
+
+{% block javascripts %}
+
+{% endblock %}

@@ -1,0 +1,85 @@
+<!-- Header Area Start Here -->
+<header class="header">
+    <div id="header-topbar" class="bg-Primary">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-8">
+                    <div class="header-topbar-layout1">
+                        <ul class="header-top-left">
+                            <li class="social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/dabanettoyage.ma/"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li class="opening-hour"><i class="far fa-clock"></i>Lun -  Ven: 08.00am - 18.00 pm</li>
+                            <li class="opening-hour"><i class="far fa-clock"></i>Sam: 08.00am - 14.00 pm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-end">
+                    <div class="header-topbar-layout1">
+                        <div class="header-top-right">
+                            <a href="#" class="header-top-btn"><i class="fas fa-bell"></i>Appelez-nous maintenant!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="rt-sticky-placeholder"></div>
+    <div id="header-menu" class="header-menu menu-layout1">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-xl-2 col-lg-2">
+                    <div class="logo-area">
+                        <a href="{{ url_for('site_blueprint.home_page') }}" class="temp-logo">
+                            <img src="/static/assets/img/dabaNettoyage_icon.png" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 d-flex justify-content-end position-static">
+                    <nav id="dropdown" class="template-main-menu">
+                        <ul>
+                           <li class="{% if current_page=='accueil' %}active{% endif %}">
+                                <a href="{{ url_for('site_blueprint.home_page') }}">Accueil</a>
+                            </li>
+                            <li class="{% if current_page=='about' %}active{% endif %}">
+                                <a href="{{ url_for('site_blueprint.about_page') }}">A prorpos</a>                                
+                            </li>
+                            <li class="{% if current_page=='services' %}active{% endif %}">
+                                <a href="{{ url_for('site_blueprint.services_page') }}">Nos Services</a>
+                                <ul class="dropdown-menu-col-1">
+                                    <li>
+                                        <a href="service1.html">Services 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="service2.html">Services 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="{% if current_page=='contact' %}active{% endif %}">
+                                <a href="{{ url_for('site_blueprint.contact_page') }}">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-end">
+                    <div class="header-action-layout1">
+                        <ul>
+                            <li class="header-action-number">
+                                <div class="item-icon">
+                                    <i class="flaticon-phone-call"></i>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-title">GSM :</div>
+                                    <div class="item-number">+212 703 202 130</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header Area End Here -->

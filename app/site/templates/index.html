@@ -1,0 +1,72 @@
+{% extends "base_site.html" %}
+
+{% block title %} Home {% endblock title %}
+
+{% block stylesheets %}
+     <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+{% endblock stylesheets %}
+
+{% block content %}
+<section class="inner-page-banner bg-common" data-bg-image="https://img.freepik.com/photos-gratuite/jeune-fille-tient-produit-nettoyage-gants-chiffons-dans-bassin-mur-blanc_1150-21780.jpg?w=996&t=st=1688990001~exp=1688990601~hmac=0bd7bc529b361fc00ee76861fdc9a53af8889a46a01afcdb0073d211f196a933">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumbs-area">
+                    <h1>Découvrez de bons résultats  en un temps record !</h1>
+                    <ul>
+                        <li>
+                            <a href="{{ url_for('site_blueprint.home_page') }}">Home</a>
+                        </li>
+                        <li>Accueil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding-12-9">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="about-box-layout1">
+                    <h2 class="item-title">Propreté et hygiène DABA W DIMA</h2>
+                    <h3>À la recherche d'un service de nettoyage rapide et efficace ? Ne cherchez plus !</h3>
+                    <p>DABA NETTOYAGE est là pour répondre à tous vos besoins en matière de nettoyage. Avec nos agents expérimentés, équipés des machines modernes et des produits appropriés, nous vous garantissons une prestation de qualité
+                    </p>
+                    <h3> 
+                        Seulement 2 heures
+                    </h3>
+                    <h3>
+                        Ne perdez plus votre temps
+                    </h3>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="about-box-layout6">
+                    <div class="item-img">
+                        <img src="/static/assets/img/figure/about1.jpg" alt="thumb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block javascripts %}
+
+{% endblock %}
