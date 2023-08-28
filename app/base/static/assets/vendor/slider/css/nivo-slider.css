@@ -252,6 +252,27 @@
 	font-weight:bold;
 
 }
+@media only screen and (max-width: 575px) {
+	.nivoSlider {
+
+		position:relative;
+	
+		width:100%;
+	
+		height:auto;
+	
+		overflow: visible;
+	
+	}
+	.nivoSlider img {	
+		top:50px;
+	}
+	.nivo-caption {
+		position: absolute;
+		top: 50px;
+		width: 75%;
+	}
+  }
 
 /* ------------------------------
 

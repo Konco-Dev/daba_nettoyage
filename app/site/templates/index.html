@@ -21,50 +21,262 @@
 {% endblock stylesheets %}
 
 {% block content %}
-<section class="inner-page-banner bg-common" data-bg-image="https://img.freepik.com/photos-gratuite/jeune-fille-tient-produit-nettoyage-gants-chiffons-dans-bassin-mur-blanc_1150-21780.jpg?w=996&t=st=1688990001~exp=1688990601~hmac=0bd7bc529b361fc00ee76861fdc9a53af8889a46a01afcdb0073d211f196a933">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="breadcrumbs-area">
-                    <h1>Découvrez de bons résultats  en un temps record !</h1>
-                    <ul>
-                        <li>
-                            <a href="{{ url_for('site_blueprint.home_page') }}">Home</a>
-                        </li>
-                        <li>Accueil</li>
-                    </ul>
+<!-- Slider Area Start Here -->
+<div class="slider-area slider-layout1">
+    <div class="bend niceties preview-1">
+        <div id="ensign-nivoslider-4" class="slides">
+            <img src="static/assets/img/daba_nettoyage/slide_1.png" alt="slider" title="#slider-direction-1" />
+            <img src="static/assets/img/daba_nettoyage/slide_2.png" alt="slider" title="#slider-direction-2" />
+            <img src="static/assets/img/daba_nettoyage/slide_3.png" alt="slider" title="#slider-direction-3" />
+        </div>
+        <div id="slider-direction-1" class="t-cn slider-direction">
+            <div class="slider-content s-tb slide-1">
+                <div class="text-left title-container s-tb-c">
+                    <div class="container">
+                        <h1 class="slider-big-text h1_slide">Propreté et hygiène DABA W DIMA</h1>
+                        <div class="slider-sub-text">À la recherche d'un service de nettoyage rapide et efficace ? Ne cherchez plus !</div>
+                        <div class="slider-paragraph">DABA NETTOYAGE est là pour répondre à tous vos besoins en matière de nettoyage. Avec nos agents expérimentés, équipés des machines modernes et des produits appropriés, nous vous garantissons une prestation de qualité</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="section-padding-12-9">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="about-box-layout1">
-                    <h2 class="item-title">Propreté et hygiène DABA W DIMA</h2>
-                    <h3>À la recherche d'un service de nettoyage rapide et efficace ? Ne cherchez plus !</h3>
-                    <p>DABA NETTOYAGE est là pour répondre à tous vos besoins en matière de nettoyage. Avec nos agents expérimentés, équipés des machines modernes et des produits appropriés, nous vous garantissons une prestation de qualité
-                    </p>
-                    <h3> 
-                        Seulement 2 heures
-                    </h3>
-                    <h3>
-                        Ne perdez plus votre temps
-                    </h3>
+        <div id="slider-direction-2" class="t-cn slider-direction">
+            <div class="slider-content s-tb slide-2">
+                <div class="text-left title-container s-tb-c">
+                    <div class="container">
+                        <h1 class="slider-big-text h1_slide">Entreprise certifiée</h1>
+                        <div class="slider-sub-text">Seulement 2 heures</div>
+                        <div class="slider-paragraph">Avec Daba Nettoyage, bénéficiez d'une équipe dévouée et compétente pour maintenir la propreté de vos espaces, laissant une impression de fraîcheur à chaque visite.</div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="about-box-layout6">
+        </div>
+        <div id="slider-direction-3" class="t-cn slider-direction">
+            <div class="slider-content s-tb slide-3">
+                <div class="text-left title-container s-tb-c">
+                    <div class="container">
+                        <h1 class="slider-big-text h1_slide">Entreprise certifiée</h1>
+                        <div class="slider-sub-text">Ne perdez plus votre temps</div>
+                        <div class="slider-paragraph">Nous mettons notre expertise et notre savoir-faire au service de votre satisfaction, assurant un nettoyage minutieux et méticuleux qui répond à vos besoins les plus exigeants.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+<!-- Slider Area End Here -->
+<!-- About Us Area Start Here -->
+<section class="section-bubble1 section-padding-md-2">
+    <div class="container">
+        <div class="row gutters-50 d-flex align-items-center">
+            <div class="col-xl-7">
+                <div class="about-box-layout3">
+                    <div class="item-icon shape1">
+                        <img src="static/assets/img/daba_nettoyage/icon-shape1.png" alt="shape">
+                    </div>
+                    <div class="item-icon shape2">
+                        <img src="static/assets/img/daba_nettoyage/icon-shape2.png" alt="shape">
+                    </div>
+                    <div class="item-icon shape3">
+                        <img src="static/assets/img/daba_nettoyage/icon-shape3.png" alt="shape">
+                    </div>
+                    <div class="item-icon shape4">
+                        <img src="static/assets/img/daba_nettoyage/icon-shape4.png" alt="shape">
+                    </div>
                     <div class="item-img">
-                        <img src="/static/assets/img/figure/about1.jpg" alt="thumb">
+                        <img src="static/assets/img/daba_nettoyage/about1.png" alt="img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5">
+                <div class="about-box-layout4">
+                    <h2 class="item-title">Making Your House <span>As Good As New</span></h2>
+                    <p>DABA NETTOYAGE est là pour répondre à tous vos besoins en matière de nettoyage. Avec nos agents expérimentés, équipés des machines modernes et des produits appropriés, nous vous garantissons une prestation de qualité</p>
+                    <div class="service-list">
+                        <ul>
+                            <li>Équipe expérimentée</li>
+                            <li>Gardez le même nettoyant pour chaque visite</li>
+                            <li>Visites ponctuelles, hebdomadaires ou bimensuelles</li>
+                            <li>Réservez, gérez &amp; payer en ligne</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!-- About Us Area End Here -->
+<!-- Service Area Start Here -->
+<section class="section-padding-lg bg-common bg-aash" data-bg-image="static/assets/img/figure/bg-shape1.png">
+    <div class="container">
+        <div class="heading-layout1">
+            <h2>Nos Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="service-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/service/service.jpg" alt="Thumb">
+                    </div>
+                    <div class="item-middle-content">
+                        <div class="item-icon">
+                            <div class="home-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-service1.html">Residential</a></h3>
+                        <div class="serivce-list">
+                            <ul>
+                                <li>Kitchen</li>
+                                <li>Bathrooms</li>
+                                <li>Bedrooms</li>
+                                <li>Windows</li>
+                                <li>Carpet</li>
+                                <li>Move in/out</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="service-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/service/service1.jpg" alt="Thumb">
+                    </div>
+                    <div class="item-middle-content">
+                        <div class="item-icon">
+                            <div class="home-icon">
+                                <i class="far fa-building"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-service1.html">Commercial</a></h3>
+                        <div class="serivce-list">
+                            <ul>
+                                <li>Kitchen</li>
+                                <li>Bathrooms</li>
+                                <li>Bedrooms</li>
+                                <li>Windows</li>
+                                <li>Carpet</li>
+                                <li>Move in/out</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-block d-md-none d-lg-block col-12">
+                <div class="service-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/service/service2.jpg" alt="Thumb">
+                    </div>
+                    <div class="item-middle-content">
+                        <div class="item-icon">
+                            <div class="home-icon">
+                                    <i class="fas fa-car"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-service1.html">Vehicle Wash</a></h3>
+                        <div class="serivce-list">
+                            <ul>
+                                <li>Kitchen</li>
+                                <li>Bathrooms</li>
+                                <li>Bedrooms</li>
+                                <li>Windows</li>
+                                <li>Carpet</li>
+                                <li>Move in/out</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service Area End Here -->
+<!-- Call To Action Area Start Here -->
+<section class="action-wrap-layout1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="action-box-layout1">
+                    <h2 class="item-title">Propreté et hygiène DABA W DIMA</h2>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="action-box-layout1">
+                    <div class="item-img bottom-bubble">
+                        <img src="static/assets/img/daba_nettoyage/pic5.png" alt="img">
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Call To Action Area End Here -->
+<!-- Team Area Start Here -->
+<section class="section-padding-lg-3 section-bubble">
+    <div class="container">
+        <div class="heading-layout1">
+            <h2>Our Working Experts</h2>
+            <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol
+                oremque laudantium, totam remeaque ipsa</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="team-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/team/team1.png" alt="team-thumb">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-team.html">Richard Powel</a></h3>
+                        <div class="item-subtitle">Office Cleaner</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="team-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/team/team2.png" alt="team-thumb">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-team.html">Merry Patel</a></h3>
+                        <div class="item-subtitle">Kitchen Cleaner</div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-block d-md-none d-lg-block col-12">
+                <div class="team-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/team/team3.png" alt="team-thumb">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-team.html">Johnson Jack</a></h3>
+                        <div class="item-subtitle">Floor Cleaner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Area End Here -->
+<!-- Banner Area Start Here -->
+<section class="banner-wrap-layout4" data-bg-image="static/assets/img/daba_nettoyage/pic7.png">
+    <div class="container">
+        <div class="row d-flex justify-content-end">
+            <div class="col-xl-6 col-12">
+                <div class="banner-box-layout1">
+                    <h2 class="item-title">Together <span>We'll Explore</span> New Things</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner Area End Here -->
 {% endblock %}
 
 {% block javascripts %}

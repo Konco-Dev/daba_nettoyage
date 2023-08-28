@@ -1,0 +1,606 @@
+{% extends "base_site.html" %}
+
+{% block title %} Home {% endblock title %}
+
+{% block stylesheets %}
+     <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+{% endblock stylesheets %}
+
+{% block content %}
+ <section class="inner-page-banner bg-common" data-bg-image="https://img.freepik.com/photos-gratuite/jeune-fille-tient-produit-nettoyage-gants-chiffons-dans-bassin-mur-blanc_1150-21780.jpg?w=996&t=st=1688990001~exp=1688990601~hmac=0bd7bc529b361fc00ee76861fdc9a53af8889a46a01afcdb0073d211f196a933">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumbs-area">
+                    <h1>Découvrez de bons résultats  en un temps record !</h1>
+                    <ul>
+                        <li>
+                            <a href="{{ url_for('site_blueprint.home_page') }}">Home</a>
+                        </li>
+                        <li>Accueil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding-12-9">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="about-box-layout1">
+                    <h2 class="item-title">Propreté et hygiène DABA W DIMA</h2>
+                    <h3>À la recherche d'un service de nettoyage rapide et efficace ? Ne cherchez plus !</h3>
+                    <p>DABA NETTOYAGE est là pour répondre à tous vos besoins en matière de nettoyage. Avec nos agents expérimentés, équipés des machines modernes et des produits appropriés, nous vous garantissons une prestation de qualité
+                    </p>
+                    <h3> 
+                        Seulement 2 heures
+                    </h3>
+                    <h3>
+                        Ne perdez plus votre temps
+                    </h3>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="about-box-layout6">
+                    <div class="item-img">
+                        <img src="/static/assets/static/assets/img/daba_nettoyage/6_1.jpg" alt="thumb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+<!-- Slider Area Start Here -->
+<div class="slider-area slider-layout2 mg-b--35">
+    <div class="bend niceties preview-1">
+        <div id="ensign-nivoslider-4" class="slides">
+            <img src="static/assets/img/daba_nettoyage/slide3-1.jpg" alt="slider" title="#slider-direction-1" />
+            <img src="static/assets/img/daba_nettoyage/slide3-2.jpg" alt="slider" title="#slider-direction-2" />
+            <img src="static/assets/img/daba_nettoyage/slide3-3.jpg" alt="slider" title="#slider-direction-3" />
+        </div>
+        <div id="slider-direction-1" class="t-cn slider-direction">
+            <div class="slider-content s-tb slide-1">
+                <div class="text-left title-container s-tb-c">
+                    <div class="container">
+                        <div class="slider-sub-text">Notre objectif est de surprendre à chaque nettoyage</div>
+                        <h1 class="slider-big-text">Entreprise certifiée</h1>
+                        <div class="slider-paragraph">Daba Nettoyage offre des prestations de nettoyage résidentiel et commercial pour un environnement impeccable et sain.</div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slider-direction-2" class="t-cn slider-direction">
+            <div class="slider-content s-tb slide-2">
+                <div class="text-left title-container s-tb-c">
+                    <div class="container">
+                        <div class="slider-sub-text">Seulement 2 heures</div>
+                        <h1 class="slider-big-text">Entreprise certifiée</h1>
+                        <div class="slider-paragraph">Avec Daba Nettoyage, bénéficiez d'une équipe dévouée et compétente pour maintenir la propreté de vos espaces, laissant une impression de fraîcheur à chaque visite.</div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slider-direction-3" class="t-cn slider-direction">
+            <div class="slider-content s-tb slide-3">
+                <div class="text-left title-container s-tb-c">
+                    <div class="container">
+                        <div class="slider-sub-text">Ne perdez plus votre temps</div>
+                        <h1 class="slider-big-text">Entreprise certifiée</h1>
+                        <div class="slider-paragraph">Nous mettons notre expertise et notre savoir-faire au service de votre satisfaction, assurant un nettoyage minutieux et méticuleux qui répond à vos besoins les plus exigeants.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Slider Area End Here -->
+<!-- Brand Area Start Here -->
+<section class="brand-wrap-layout2 section-bubble-5">
+    <div class="container">
+        <div class="heading-layout1">
+            <h2>Certifications You Can Trust</h2>
+            <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol
+                oremque laudantium, totam remeaque ipsa</p>
+        </div>
+        <div class="rc-carousel nav-control-layout1" data-loop="true" data-items="10" data-margin="30"
+            data-autoplay="false" data-autoplay-timeout="3000" data-smart-speed="1000" data-dots="false"
+            data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="true"
+            data-r-x-small-dots="false" data-r-x-medium="2" data-r-x-medium-nav="true"
+            data-r-x-medium-dots="false" data-r-small="2" data-r-small-nav="true" data-r-small-dots="false"
+            data-r-medium="3" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="4"
+            data-r-large-nav="true" data-r-large-dots="false" data-r-extra-large="4"
+            data-r-extra-large-nav="true" data-r-extra-large-dots="false">
+            <div class="brand-box-layout2">
+                <div class="item-img">
+                    <a href="#">
+                        <img src="static/assets/img/brand/brand6.png" alt="brand">
+                    </a>
+                </div>
+            </div>
+            <div class="brand-box-layout2">
+                <div class="item-img">
+                    <a href="#">
+                        <img src="static/assets/img/brand/brand7.png" alt="brand">
+                    </a>
+                </div>
+            </div>
+            <div class="brand-box-layout2">
+                <div class="item-img">
+                    <a href="#">
+                        <img src="static/assets/img/brand/brand8.png" alt="brand">
+                    </a>
+                </div>
+            </div>
+            <div class="brand-box-layout2">
+                <div class="item-img">
+                    <a href="#">
+                        <img src="static/assets/img/brand/brand9.png" alt="brand">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Brand Area End Here -->
+<!-- About Us Area Start Here -->
+<section class="section-padding-12-9 section-shape4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-lg-6 col-12">
+                <div class="about-box-layout1">
+                    <h2 class="item-title">Propreté et hygiène DABA W DIMA</h2>
+                    <div class="item-subtitle">À la recherche d'un service de nettoyage rapide et efficace ? Ne cherchez plus !</div>
+                    <p>
+                        Daba Nettoyage est une entreprise spécialisée dans les services de nettoyage 
+                        résidentiel et commercial. Forts d'une expérience solide dans le domaine, 
+                        nous sommes déterminés à fournir des prestations de haute qualité pour nos clients. 
+                        Notre équipe compétente est composée de professionnels formés pour répondre 
+                        aux besoins spécifiques de chaque client, en veillant à ce que chaque espace 
+                        soit impeccable, ordonné et hygiénique. Nous accordons une grande importance 
+                        à l'utilisation de produits et d'équipements respectueux de l'environnement, 
+                        afin de préserver la santé de nos clients et de minimiser notre impact sur la planète. 
+                        Chez Daba Nettoyage, la satisfaction de nos clients est notre priorité absolue, 
+                        et nous nous engageons à dépasser leurs attentes à chaque intervention. 
+                        Optez pour Daba Nettoyage, et profitez d'un service professionnel de confiance 
+                        pour un environnement propre et sain.
+                    </p>
+                    <div class="list-item">
+                        <ul>
+                            <li>
+                                <h3>Notre objectif est de surprendre à chaque nettoyage</h3>
+                            </li>
+                            <li>
+                                <h3>Seulement 2 heures</h3>
+                            </li>
+                            <li>
+                                <h3>Ne perdez plus votre temps</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 col-12">
+                <div class="about-box-layout6">
+                    <div class="item-img">
+                        <img src="/static/assets/img/daba_nettoyage/6_1.jpg" alt="thumb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Us Area End Here -->
+<!-- Service Area Start Here -->
+<section class="section-padding-lg bg-Primary bg-common" data-bg-image="static/assets/img/figure/bg-shape.png">
+    <div class="container">
+        <div class="heading-layout3">
+            <h2 class="text-white">Nos Services</h2>
+            <p class="text-white">Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol
+                oremque laudantium, totam remeaque ipsa</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-tower"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>BUREAUX <span>PROFESSIONNELS</span></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-shower"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>CABINETS<span>
+                            MÉDICAUX</span></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-mop"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>MAISONS
+                            <span>D'HÔTE</span></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-car-front"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>AVANT OU APRÈS<span>DÉMÉNAGEMENT</span></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-vacuum"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>CHAISES<span>ET CANAPÉS</span></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-clean-3"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>SURFACES VITRÉES<span>ET STORES</span></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-dishwasher"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>APPARTEMENTS<span>DE LOCATION</span></a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-box-layout4">
+                    <div class="item-icon">
+                        <i class="flaticon-clean-2"></i>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a>FIN<span>CHANTIER</span></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service Area End Here -->
+<!-- Banner Area Start Here -->
+<section class="banner-wrap-layout4" data-bg-image="static/assets/img/daba_nettoyage/Capture_ecran.png">
+    <div class="container">
+        <div class="row d-flex justify-content-end">
+            <div class="col-xl-6 col-12">
+                <div class="banner-box-layout1">
+                    <h2 class="item-title">Together <span>We'll Explore</span> New Things</h2>
+                    <!-- <a href="#" class="btn-fill-md btn-slide-hover bg-accent text-primarytext">Read More<i -->
+                            <!-- class="fas fa-angle-right"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner Area End Here -->
+<!-- Projects Area Start Here -->
+ <section class="section-padding-lg-6 section-bubble-4 ">
+    <div class="container">
+        <div class="heading-layout1">
+            <h2>Working Projects</h2>
+            <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol
+                oremque laudantium, totam remeaque ipsa</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/project/project1.jpg" alt="project-thumb">
+                        <div class="hover-icon-wrap">
+                            <a href="single-project1.html" class="hover-icon">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-project1.html">Window Cleaning</a></h3>
+                        <div class="item-tag">
+                            <a href="#">Office,</a>
+                            <a href="#">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/project/project2.jpg" alt="project-thumb">
+                        <div class="hover-icon-wrap">
+                            <a href="single-project1.html" class="hover-icon">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-project1.html">Office Cleaning</a></h3>
+                        <div class="item-tag">
+                            <a href="#">Office,</a>
+                            <a href="#">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/project/project3.jpg" alt="project-thumb">
+                        <div class="hover-icon-wrap">
+                            <a href="single-project1.html" class="hover-icon">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-project1.html">Floor Cleaning</a></h3>
+                        <div class="item-tag">
+                            <a href="#">Office,</a>
+                            <a href="#">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/project/project4.jpg" alt="project-thumb">
+                        <div class="hover-icon-wrap">
+                            <a href="single-project1.html" class="hover-icon">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-project1.html">Bedroom Cleaning</a></h3>
+                        <div class="item-tag">
+                            <a href="#">Office,</a>
+                            <a href="#">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/project/project5.jpg" alt="project-thumb">
+                        <div class="hover-icon-wrap">
+                            <a href="single-project1.html" class="hover-icon">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-project1.html">Kitchen</a></h3>
+                        <div class="item-tag">
+                            <a href="#">Office,</a>
+                            <a href="#">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box-layout1">
+                    <div class="item-img">
+                        <img src="static/assets/img/project/project6.jpg" alt="project-thumb">
+                        <div class="hover-icon-wrap">
+                            <a href="single-project1.html" class="hover-icon">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-project1.html">Car Wash</a></h3>
+                        <div class="item-tag">
+                            <a href="#">Office,</a>
+                            <a href="#">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Projects Area End Here -->
+<!-- Testimonial Area Start Here -->
+ <section class="section-padding-md-6 bg-Primary bg-common" data-bg-image="static/assets/img/figure/bg-shape.png">
+    <div class="container">
+        <div class="heading-layout2 mg-b-30">
+            <h2 class="text-white">Client’s Say About Us</h2>
+        </div>
+        <div class="rc-carousel nav-control-layout1" data-loop="true" data-items="10" data-margin="30"
+            data-autoplay="false" data-autoplay-timeout="3000" data-smart-speed="1000" data-dots="false"
+            data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="true"
+            data-r-x-small-dots="false" data-r-x-medium="1" data-r-x-medium-nav="true"
+            data-r-x-medium-dots="false" data-r-small="1" data-r-small-nav="true" data-r-small-dots="false"
+            data-r-medium="2" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="3"
+            data-r-large-nav="true" data-r-large-dots="false" data-r-extra-large="3"
+            data-r-extra-large-nav="true" data-r-extra-large-dots="false">
+            <div class="testimonial-box-layout1">
+                <p>Wimply dummy text of the printing and typesetting industryrem Ipsum has
+                    been the industry's standard dummy text ever since </p>
+                <h3 class="item-title">Steven Joes</h3>
+                <div class="item-subtitle">CEO, RT</div>
+                <ul class="item-rating">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                </ul>
+                <div class="item-quote"><i class="fas fa-quote-right"></i></div>
+            </div>
+            <div class="testimonial-box-layout1">
+                <p>Wimply dummy text of the printing and typesetting industryrem Ipsum has
+                    been the industry's standard dummy text ever since </p>
+                <h3 class="item-title">Mike Tyson</h3>
+                <div class="item-subtitle">CEO, RT</div>
+                <ul class="item-rating">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                </ul>
+                <div class="item-quote"><i class="fas fa-quote-right"></i></div>
+            </div>
+            <div class="testimonial-box-layout1">
+                <p>Wimply dummy text of the printing and typesetting industryrem Ipsum has
+                    been the industry's standard dummy text ever since </p>
+                <h3 class="item-title">Bobby John</h3>
+                <div class="item-subtitle">CEO, RT</div>
+                <ul class="item-rating">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                </ul>
+                <div class="item-quote"><i class="fas fa-quote-right"></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonial Area End Here -->
+<!-- Blog Area Start Here -->
+ <section class="section-padding-lg-4 bg-assh section-bubble-3">
+    <div class="container">
+        <div class="heading-layout1">
+            <h2> Our Latest Blogs</h2>
+            <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium fa-angle-double-up
+                oremque laudantium, totam remeaque ipsa</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="blog-box-layout2">
+                    <div class="item-img">
+                        <a href="single-blog1.html"><img src="static/assets/img/blog/blog15.jpg" alt="blog-thumb"></a>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-blog1.html">5 Star Google Review for Tallmadge,
+                                OH House ...</a></h3>
+                        <div class="entry-info">
+                            <ul>
+                                <li><i class="fas fa-calendar-alt"></i>24 July, 2019</li>
+                                <li><i class="fas fa-user"></i>By Mark Wily</li>
+                            </ul>
+                        </div>
+                        <p>Aimply dummy text of the printing anden type setting industrym Ipsum has
+                            been the industry's standard.</p>
+                        <div class="entry-meta">
+                            <ul>
+                                <li><i class="fas fa-heart"></i><span>06</span> Likes</li>
+                                <li><i class="fas fa-comment"></i><span>02</span> <a href="#">Comments</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="blog-box-layout2">
+                    <div class="item-img">
+                        <a href="single-blog1.html"><img src="static/assets/img/blog/blog17.jpg" alt="blog-thumb"></a>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-blog1.html">5 Star Google Review for Tallmadge,
+                                OH House ...</a></h3>
+                        <div class="entry-info">
+                            <ul>
+                                <li><i class="fas fa-calendar-alt"></i>24 July, 2019</li>
+                                <li><i class="fas fa-user"></i>By Mark Wily</li>
+                            </ul>
+                        </div>
+                        <p>Aimply dummy text of the printing anden type setting industrym Ipsum has
+                            been the industry's standard.</p>
+                        <div class="entry-meta">
+                            <ul>
+                                <li><i class="fas fa-heart"></i><span>06</span> Likes</li>
+                                <li><i class="fas fa-comment"></i><span>02</span> <a href="#">Comments</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-block d-md-none d-lg-block col-12">
+                <div class="blog-box-layout2">
+                    <div class="item-img">
+                        <a href="single-blog1.html"><img src="static/assets/img/blog/blog16.jpg" alt="blog-thumb"></a>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title"><a href="single-blog1.html">5 Star Google Review for Tallmadge,
+                                OH House ...</a></h3>
+                        <div class="entry-info">
+                            <ul>
+                                <li><i class="fas fa-calendar-alt"></i>24 July, 2019</li>
+                                <li><i class="fas fa-user"></i>By Mark Wily</li>
+                            </ul>
+                        </div>
+                        <p>Aimply dummy text of the printing anden type setting industrym Ipsum has
+                            been the industry's standard.</p>
+                        <div class="entry-meta">
+                            <ul>
+                                <li><i class="fas fa-heart"></i><span>06</span> Likes</li>
+                                <li><i class="fas fa-comment"></i><span>02</span> <a href="#">Comments</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- Blog Area End Here -->
+{% endblock %}
+
+{% block javascripts %}
+
+{% endblock %}

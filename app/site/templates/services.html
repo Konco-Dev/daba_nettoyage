@@ -21,12 +21,12 @@
 {% endblock stylesheets %}
 
 {% block content %}
-<section class="inner-page-banner bg-common" data-bg-image="https://img.freepik.com/photos-gratuite/texte-nettoyage-entoure-equipements-tableau-noir_23-2147860465.jpg?w=996&t=st=1688986438~exp=1688987038~hmac=cf14296769a8d6dc33168809e1de0fee72f96c64a0d79d7bb51492beb632f957">
+<section class="inner-page-banner bg-common" data-bg-image="/static/assets/img/daba_nettoyage/page1.png">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="breadcrumbs-area">
-                    <h3 style="color: rgb(33, 159, 213);">DABA NETTOYAGE AUX SERVICE DE L’ENTREPRISE  QUE CA SOIT POUR UN NETTOYAGE</h3>
+                    <h1>DABA NETTOYAGE AUX SERVICE</h1>
                     <ul>
                         <li>
                             <a href="{{ url_for('site_blueprint.home_page') }}">Home</a>
@@ -47,7 +47,8 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-clean-3"></i>
+                            <!-- <i class="flaticon-tower"></i>  -->                            
+                            <img src="/static/assets/img/daba_nettoyage/workplace.png" alt="thumb">                         
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html">BUREAUX ET ESPACES PROFESSIONNELS
@@ -62,10 +63,11 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-tower"></i>
+                            <!-- <i class="flaticon-clean-3"></i>  -->
+                            <img src="/static/assets/img/daba_nettoyage/sanitary.png" alt="thumb">                         
                         </div>
                         <div class="media-body">
-                            <h3 class="item-title"><a href="single-service1.html">CABINETS MÉDICAUX</a></h3>
+                            <h3 class="item-title"><a href="single-service1.html">CABINETS<br> MÉDICAUX</a></h3>
                             <p>Bero eos et accusamus et iusto odio digniss aw imos ducimus 
                                 qui blanditiis praesentium modervolup service avalable watum.</p>
                         </div>
@@ -76,7 +78,8 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-dishwasher"></i>
+                            <!-- <i class="flaticon-dishwasher"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/building.png" alt="thumb">                            
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html"> IMMEUBLES ET PARTIES COMMUNES</a></h3>
@@ -90,7 +93,23 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-shower"></i>
+                            <!-- <i class="flaticon-shower"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/lodge.png" alt="thumb">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="item-title"><a href="single-service1.html">MAISONS<br> D'HÔTE</a></h3>
+                            <p>Bero eos et accusamus et iusto odio digniss aw imos ducimus 
+                                qui blanditiis praesentium modervolup service avalable watum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="col-lg-6">
+                <div class="service-box-layout3">
+                    <div class="media media-none--xs">
+                        <div class="item-icon">
+                            <!-- <i class="flaticon-shower"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/appartments.png" alt="thumb">                              
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html">APPARTEMENTS DE LOCATION COURTE DURÉE</a></h3>
@@ -104,21 +123,8 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-shower"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="item-title"><a href="single-service1.html">APPARTEMENTS DE LOCATION COURTE DURÉE</a></h3>
-                            <p>Bero eos et accusamus et iusto odio digniss aw imos ducimus 
-                                qui blanditiis praesentium modervolup service avalable watum.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="service-box-layout3">
-                    <div class="media media-none--xs">
-                        <div class="item-icon">
-                            <i class="flaticon-sports-car"></i>
+                            <!-- <i class="flaticon-sports-car"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/broom.png" alt="thumb">
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html">AVANT OU APRÈS DÉMÉNAGEMENT</a></h3>
@@ -127,12 +133,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>                     
             <div class="col-lg-6">
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-brush"></i>
+                            <!-- <i class="flaticon-brush"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/house.png" alt="thumb">
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html">FIN CHANTIER</a></h3>
@@ -146,7 +153,8 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-clean"></i>
+                            <!-- <i class="flaticon-clean"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/sofa.png" alt="thumb">
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html"> CHAISES ET CANAPÉS</a></h3>
@@ -160,7 +168,8 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-shower"></i>
+                            <!-- <i class="flaticon-shower"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/carpet.png" alt="thumb">
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html"> MOQUETTES COLLÉES ET TAPIS</a></h3>
@@ -174,7 +183,8 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-brush"></i>
+                            <!-- <i class="flaticon-brush"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/curtain.png" alt="thumb">
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html">SURFACES VITRÉES ET STORES</a></h3>
@@ -188,7 +198,8 @@
                 <div class="service-box-layout3">
                     <div class="media media-none--xs">
                         <div class="item-icon">
-                            <i class="flaticon-clean"></i>
+                            <!-- <i class="flaticon-clean"></i> -->
+                            <img src="/static/assets/img/daba_nettoyage/wet-floor.png" alt="thumb">
                         </div>
                         <div class="media-body">
                             <h3 class="item-title"><a href="single-service1.html">SOLS (MARBRE, PARQUET,...)</a></h3>
