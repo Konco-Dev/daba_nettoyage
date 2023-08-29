@@ -902,7 +902,7 @@ h6 {
   .slider-area .slide-1 h1.slider-big-text,
   .slider-area .slide-2 h1.slider-big-text,
   .slider-area .slide-3 h1.slider-big-text {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 .slider-area .slide-1 h1.slider-big-text.text-light,
@@ -1850,7 +1850,7 @@ h6 {
   }
 }
 @media only screen and (min-width: 1200px) and  (min-width: 1475px){
-  .img-fluid {
+  .logo_footer{
     max-width: 50%;
     height: auto;
     margin: 0 auto;
