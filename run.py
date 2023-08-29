@@ -5,7 +5,8 @@ from sys import exit
 
 from flask_migrate import Migrate
 
-from app import create_app, db
+#from app import create_app, db
+from app import create_app
 from config import config_dict
 
 get_config_mode = environ.get('CONFIG_MODE')
@@ -17,7 +18,7 @@ except KeyError:
 
 app = create_app(config_mode)
 
-Migrate(app, db, compare_type=True)
+#Migrate(app, db, compare_type=True)
 
 if __name__ == "__main__":
     app.run()

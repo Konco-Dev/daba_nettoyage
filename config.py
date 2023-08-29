@@ -11,7 +11,7 @@ class Config(object):
 
     basedir = os.path.abspath(os.path.dirname(__file__))
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
+    #ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
 
     WTF_CSRF_TIME_LIMIT = None
 
@@ -21,32 +21,32 @@ class Config(object):
     PERMANENT_SESSION_LIFETIME = timedelta(minutes=30)
 
     # Launch date
-    year = 2023
-    month = 4
-    day = 10
-    hour = 0
-    minute = 0
-    second = 0
+    # year = 2023
+    # month = 4
+    # day = 10
+    # hour = 0
+    # minute = 0
+    # second = 0
 
-    launch_datetime = datetime.datetime(year, month, day, hour, minute, second)
-    LAUNCH_DATE = launch_datetime
+    #launch_datetime = datetime.datetime(year, month, day, hour, minute, second)
+    #LAUNCH_DATE = launch_datetime
 
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
-    SQLALCHEMY_ECHO = False
-    SQLALCHEMY_TRACK_MODIFICATIONS = True
-    DNT_TRACK = True
+    #SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
+    #SQLALCHEMY_ECHO = False
+    #SQLALCHEMY_TRACK_MODIFICATIONS = True
+    #DNT_TRACK = True
     FILE_LOGS = False
 
 
 class ProductionConfig(Config):
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
-    SQLALCHEMY_ECHO = False
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
-    DNT_TRACK = False
+    # SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
+    # SQLALCHEMY_ECHO = False
+    # SQLALCHEMY_TRACK_MODIFICATIONS = False
+    # DNT_TRACK = False
     FILE_LOGS = True
 
 
