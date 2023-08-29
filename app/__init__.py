@@ -20,7 +20,7 @@ from flask_moment import Moment
 
 
 cors = CORS()
-db = SQLAlchemy()
+#db = SQLAlchemy()
 csrf = CSRFProtect()
 
 babel = Babel()
@@ -28,7 +28,7 @@ moment = Moment()
 
 
 def register_extensions(app):
-    db.init_app(app)
+    #db.init_app(app)
     cors.init_app(app)
     csrf.init_app(app)
     babel.init_app(app)
@@ -41,10 +41,10 @@ def register_blueprints(app):
         app.register_blueprint(module.blueprint)
 
 
-def configure_database(app):
-    @app.teardown_request
-    def shutdown_session(exception=None):
-        db.session.remove()
+# def configure_database(app):
+#     @app.teardown_request
+#     def shutdown_session(exception=None):
+#         #db.session.remove()
 
 
 def configure_logs(app):
@@ -72,7 +72,7 @@ def create_app(config, selenium=False):
     app.config.from_object(config)
 
     register_extensions(app)
-    configure_database(app)
+    #configure_database(app)
     configure_logs(app)
     with app.app_context():
         register_blueprints(app)
