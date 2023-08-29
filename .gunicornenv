@@ -1,0 +1,9 @@
+  HOST_URL=https://debanettoyage.com/
+  SERVER_NAME=dabanettoyage.com
+
+  SECRET_KEY= %Fo!K@jP/'PN"URGoY[v>lf7bX<R1U
+  PYTHONUNBUFFERED=1
+  WTF_CSRF_TIME_LIMIT=10
+  CONFIG_MODE=production
+
+
