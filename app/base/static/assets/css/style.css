@@ -702,6 +702,7 @@ h6 {
 /*------------------- 3.1 Nivo Slider -------------------*/
 .slider-area {
   position: relative;
+  margin-top:50px;  
 }
 .slider-area .nivo-controlNav {
   display: none;
@@ -806,10 +807,10 @@ h6 {
 }
 @media only screen and (max-width: 575px) {
   .slider-area .nivo-directionNav a.nivo-nextNav {
-    top: 75%;
+    top: 50%;
   }
   .slider-area .nivo-directionNav a.nivo-prevNav {
-    top: 75%;
+    top: 50%;
 }
 
 }
@@ -892,7 +893,7 @@ h6 {
   .slider-area .slide-2 h1.slider-big-text,
   .slider-area .slide-3 h1.slider-big-text {
     font-size: 26px;
-    margin-top: 25%;
+    margin-top: 18%;
     width: 70%;
     line-height: 5rem;
   }
@@ -902,7 +903,7 @@ h6 {
   .slider-area .slide-1 h1.slider-big-text,
   .slider-area .slide-2 h1.slider-big-text,
   .slider-area .slide-3 h1.slider-big-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .slider-area .slide-1 h1.slider-big-text.text-light,
