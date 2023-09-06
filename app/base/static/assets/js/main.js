@@ -217,7 +217,7 @@
 
             var marker = new google.maps.Marker({
                 position: map.getCenter(),
-                animation: google.maps.Animation.BOUNCE,
+                aDmation: google.maps.Animation.BOUNCE,
                 icon: 'img/map-marker.png',
                 map: map
             });
