@@ -721,6 +721,12 @@ h6 {
    position: relative;
   /*margin-top:50px;   */
 }
+@media only screen and (max-width: 575px) {
+  .slider-area {
+    position: relative;
+   margin-top:50px;  
+ }
+}
 .slider-area .nivo-controlNav {
   display: none;
 }
@@ -910,7 +916,7 @@ h6 {
   .slider-area .slide-2 h1.slider-big-text,
   .slider-area .slide-3 h1.slider-big-text {
     font-size: 26px;
-    margin-top: 18%;
+    margin-top: 10%;
     width: 70%;
     line-height: 5rem;
   }
@@ -2267,10 +2273,11 @@ header.header {
   z-index: 15;
 }
 @media only screen and (max-width: 991px) {
-  header.header {
+  header.header{
     display: none;
   }
 }
+
 .header-top-left{
   padding: 10px;
 }
@@ -5248,6 +5255,13 @@ div#wrapper.open > .offcanvas-mask {
 .action-box-layout1 .item-title {
   font-weight: 600;
   color: #ffffff;
+}
+@media only screen and (max-width: 500px) {
+  .action-box-layout1 .item-title {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto !important;
+  }
 }
 @media only screen and (max-width: 991px) {
   .action-box-layout1 .item-title {
