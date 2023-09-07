@@ -438,7 +438,7 @@
                 items: items ? items : 1,
                 lazyLoad: true,
                 margin: margin ? margin : 0,
-                autoplay: autoplay ? true : false,
+                autoplay: true,
                 autoplayTimeout: autoplayTimeout ? autoplayTimeout : 1000,
                 smartSpeed: smartSpeed ? smartSpeed : 250,
                 dots: dots ? true : false,
