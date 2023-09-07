@@ -1906,6 +1906,11 @@ h6 {
     width: 200px;
     margin: 0 auto;
   }
+  .footer_p{    
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 1200px) and  (min-width: 1475px){
   .logo_footer{
