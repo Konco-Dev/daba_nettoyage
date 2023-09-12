@@ -737,7 +737,7 @@ h6 {
    position: relative;
   /*margin-top:50px;   */
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 767px) {
   .slider-area {
     position: relative;
    margin-top:50px;  
@@ -923,8 +923,9 @@ h6 {
   .slider-area .slide-1 h1.slider-big-text,
   .slider-area .slide-2 h1.slider-big-text,
   .slider-area .slide-3 h1.slider-big-text {
-    font-size: 28px;
-    text-align: center;
+    font-size: 22px;
+    text-align: left;
+    line-height: 4rem;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -978,7 +979,7 @@ h6 {
   .slider-area .slide-1 div.slider-sub-text,
   .slider-area .slide-2 div.slider-sub-text,
   .slider-area .slide-3 div.slider-sub-text {
-    text-align: center;
+    text-align: left;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -1021,6 +1022,7 @@ h6 {
     width: 100%;
     text-align: center;
     color: #000000;
+    display: none;
   }
 }
 @media only screen and (max-width: 575px) {
